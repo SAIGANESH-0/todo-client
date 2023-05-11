@@ -4,7 +4,6 @@ import TodoForm from "./components/Todoform";
 import axios from "axios";
 
 const TodosPage = () => {
-  const { localStorage } = window;
   const [todos, setTodos] = useState([]);
   const [User, setUser] = useState("");
 

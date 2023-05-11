@@ -4,7 +4,6 @@ import axios from "axios";
 import Link from "next/link";
 
 const LoginPage = () => {
-  const { localStorage } = window;
   const [username, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [log, setlog] = useState(false);
