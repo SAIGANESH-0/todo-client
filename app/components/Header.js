@@ -1,4 +1,3 @@
-import React from "react";
 import Link from "next/link";
 
 const Header = () => {
@@ -7,7 +6,7 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
           <Link href="/" className="text-2xl font-bold cursor-pointer">
-            ToDo List App
+            To Do List App
           </Link>
           <nav>
             <ul className="flex space-x-4">
